@@ -122,6 +122,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+
 	 margin: 0;
 	 padding: 0;
 	 border: none;
@@ -148,7 +149,6 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
    /* center align the menu */
    text-align: center;
 }
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #0056ed; }
 
 
 /* ------------------------------------------------------------------ */
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #186af9;
    padding-bottom: 6px;
 }
 #resume h3 {
