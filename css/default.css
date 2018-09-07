@@ -1,6 +1,6 @@
 /*
 =====================================================================
-*  
+*
 =====================================================================
 
 TOC:
@@ -428,6 +428,19 @@ dd { margin: 0 0 0 20px; }
    -khtml-border-radius: 3px;
 	border-radius: 3px;
 }
+
+.moveimage
+{
+    position: relative;
+    top: 3px;
+}
+.moveimageRight
+{
+    position: relative;
+    top: 3px;r
+    right: 3px;
+}
+
 .pagination .page-numbers:hover {
    background: #838A91;
    color: #fff;
@@ -514,6 +527,25 @@ input[type="button"].full-width {
 	text-align: center;
 }
 
+.mdl-grid {
+    max-width: 600px;
+}
+.mdl-card__media {
+    margin: 0;
+}
+.mdl-card__media > img {
+    max-width: 100%;
+}
+.mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+}
+.mdl-card__actions > .mdl-button--icon {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
 /* Fix for odd Mozilla border & padding issues */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -595,6 +627,10 @@ input[type="checkbox"] { display: inline; }
    max-width: 1020px;
    margin: 0 auto;
 }
+ul#menu li {
+    display:inline;
+}
+
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
 
@@ -798,4 +834,12 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
+}
+
+
+
+@media screen and (max-width:450px) {
+  .Button1 {
+    display: none;
+  }
 }
