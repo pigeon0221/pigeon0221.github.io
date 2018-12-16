@@ -15,6 +15,7 @@
  */
 
 html, body {
+  white-space:nowrap;
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
