@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Stream Viewer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .iframe-container {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .top-left {
+            top: 0;
+            left: 0;
+        }
+        .top-right {
+            top: 0;
+            right: 0;
+        }
+        .bottom-left {
+            bottom: 0;
+            left: 0;
+        }
+        .bottom-right {
+            bottom: 0;
+            right: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="iframe-container top-left">
+    <iframe src="https://embedstreams.me/pga-tour/featured-group-1-zalatoris-fitzpatrick-woods-stream-1?autoplay=1" allowfullscreen></iframe>
+</div>
+<div class="iframe-container top-right">
+    <iframe src="https://embedstreams.me/pga-tour/featured-group-2-thomas-morikawa-koepka-stream-1?autoplay=1" allowfullscreen></iframe>
+</div>
+<div class="iframe-container bottom-left">
+    <iframe src="https://embedstreams.me/pga-tour/featured-group-3-finau-aberg-johnson-stream-1?autoplay=1" allowfullscreen></iframe>
+</div>
+<div class="iframe-container bottom-right">
+    <iframe src="https://embedstreams.me/pga-tour/u-s-open-golf-championship-2024-first-round-usa-stream-1?autoplay=1" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
+
